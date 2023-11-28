@@ -27,7 +27,7 @@ ALX Higher Level Programming is a program designed to help developers enhance th
 ### Getting Started
 To get started with the projects in this repository, follow these steps:
 - Clone the repository to your local machine:
-.git clone https://github.com/your-username/alx-higher_level_programming.git
+.git clone https://github.com/Houdini01MD/alx-higher_level_programming.git
 
 - Navigate to the project folder you are interested in:
 . cd alx-higher_level_programming/0x00-python-hello_world
