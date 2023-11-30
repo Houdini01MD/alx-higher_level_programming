@@ -3,14 +3,14 @@
 if __name__ == "__main__":
     """Print the number of and list of arguments."""
 
-import sys
+from sys import argv
 
-count = len(sys.argv) - 1
-if count == 0:
+num_arg = len(argv) - 1
+if num_arg == 0:
     print("0 arguments.")
-elif count == 1:
+elif num_arg == 1:
     print("1 argument:")
 else:
-    print("{} arguments:".format(count))
-for i in range(count):
-    print("{}: {}".format(i + 1, sys.argv[i + 1]))
+    print("{} arguments:".format(num_arg))
+for i in range(num_arg):
+    print("{}: {}".format(i + 1, argv[i + 1]))
