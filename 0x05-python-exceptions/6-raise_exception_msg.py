@@ -5,7 +5,7 @@ def raise_exception_msg(message=""):
 
     Args:
         message: string
-    
+
     Return:
         nessage
     """
