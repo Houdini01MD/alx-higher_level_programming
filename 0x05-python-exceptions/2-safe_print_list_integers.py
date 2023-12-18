@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 def safe_print_list_integers(my_list=[], x=0):
+    count = 0
     try:
-        count = 0
         for i in range(x):
             value = my_list[i]
             if type(value) == int:
