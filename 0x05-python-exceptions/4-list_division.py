@@ -1,6 +1,16 @@
 #!/usr/bin/python3
 
 def list_division(my_list_1, my_list_2, list_length):
+    """divides element by element 2 lists.
+
+    Args:
+        my_list_1: firdt list
+        my_list_2: second list
+        list_length: The number of elements to divide.
+
+    Return:
+        a new list (length = list_length) with all divisions
+    """
     new_list = []
     for i in range(0, list_length):
         try:
