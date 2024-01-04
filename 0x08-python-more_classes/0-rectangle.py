@@ -1,3 +1,4 @@
 #!/usr/bin/python
 
-class Rectangle: {}
+class Rectangle:
+    {}
